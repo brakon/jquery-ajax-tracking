@@ -1,0 +1,32 @@
+{
+  "name": "jquery-ajax-tracking",
+  "version": "1.0.0",
+  "description": "Module to track JQuery ajax requests response times and response status",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "open ./tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brakon/jquery-ajax-tracking"
+  },
+  "keywords": [
+    "jquery",
+    "ajax",
+    "tracking",
+    "response",
+    "time",
+    "code",
+    "logging",
+    "track",
+    "xhr"
+  ],
+  "author": "Brian Bergendahl <brianbc2005@gmail.com> (http://brianapps.com/)",
+  "license": "MIT",
+  "homepage": "https://github.com/brakon/jquery-ajax-tracking",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "jquery-mockjax": "^2.2.2",
+    "mocha": "^3.5.0"
+  }
+}
