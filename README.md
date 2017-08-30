@@ -9,8 +9,17 @@ JQuery Ajax Tracking is a JQuery plugin that allows to track all Ajax request on
 ## Usage
 
 To run, you need to include the script and run:
+
 ```js
 $(window).trackAjax({/* configuration */});
+```
+
+This library implements [UMD](https://github.com/umdjs/umd) and hence supports both AMD and CommonJS.
+
+To include you can reference the index.js directly or use:
+
+```sh
+npm install jquery-ajax-tracking
 ```
 
 ## Configuration
