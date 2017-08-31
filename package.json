@@ -1,6 +1,6 @@
 {
   "name": "jquery-ajax-tracking",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module to track JQuery ajax requests response times and response status",
   "main": "src/index.js",
   "scripts": {
