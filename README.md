@@ -7,7 +7,7 @@ JQuery Ajax Tracking is a JQuery extension that allows to track all Ajax request
 To run, you need to include the script and run:
 
 ```js
-$(window).trackAjax({callback: function(){}, filter: function(){}});
+$(window).ajaxTracking({callback: function(){}, filter: function(){}});
 ```
 
 This library implements [UMD](https://github.com/umdjs/umd) and hence supports both AMD and CommonJS
@@ -20,7 +20,7 @@ npm install jquery-ajax-tracking
 
 ## Configuration
 
-The trackAjax method receipts an object with two methods:
+The ajaxTracking method receipts an object with two methods:
 * **callback (required)**
   * Function to be executed when an ajax request is completed
   * Parameters
